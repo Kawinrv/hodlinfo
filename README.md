@@ -1,6 +1,5 @@
 
-HODLINFO 
-HODLINFO is a web application that provides real-time cryptocurrency data. 
+HODLINFO  is a web application that provides real-time cryptocurrency data. 
 
 ## Project Structure
 

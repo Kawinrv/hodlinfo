@@ -1,40 +1,45 @@
-# Hodlinfo 
 
-This project fetches the top 10 cryptocurrency ticker data from the WazirX API, stores it in a MySQL database, and displays it on a web page that updates every 10 seconds.
-## Build with
+HODLINFO 
+HODLINFO is a web application that provides real-time cryptocurrency data. 
 
-- HTML
-- CSS
-- Node.js
-- MySQL
+## Project Structure
 
-## Prerequisites
+- `server.js` - Node.js server script
+- `public/index.html` - HTML file for the web interface
+- `public/script.js` - Client-side JavaScript file
 
-- Node.js
-- MySQL
+## Dependencies
 
-## Install Dependencies
-npm install
-npm install axios
+- **Node.js:** JavaScript runtime for server-side code.
+- **Express:** Web framework for Node.js.
+- **MySQL2:** MySQL database client for Node.js.
+- **Axios:** HTTP client for making API requests.
+- **Dotenv:** Loads environment variables from a `.env` file.
 
-```bash
-git clone https://github.com/your-repository.git
-cd your-repository
-npm servercon.js
+## Installation
 
-Project Structure
-server.js: Sets up the Express server, fetches data from the WazirX API, stores it in the MySQL database, and serves the API endpoints.
-public/index.html: The HTML file that displays the data.
-public/style.css: The CSS file for styling the web page.
-public/script.js: The JavaScript file that fetches data from the server and updates the HTML table.
+1. **Clone the repository:**
 
-Endpoints
-GET /api/tickers: Fetches the top 10 tickers from the database.
-GET /api/btc-price: Fetches the last price of BTC from the database.
+   ```bash
+   git clone <repository-url>
 
-How It Works
-The server fetches data from the WazirX API every 10 seconds and stores the top 10 tickers in the MySQL database.
-The /api/tickers endpoint returns the stored tickers.
-The frontend fetches the tickers from the server every 10 seconds and updates the HTML table.
-Frontend
-The frontend consists of an HTML table that displays the ticker data. The JavaScript code in public/script.js fetches the data from the server and updates the table every 10 seconds.
+## Project Structure
+
+- `server.js` - Node.js server script
+- `public/index.html` - HTML file for the web interface
+- `public/script.js` - Client-side JavaScript file
+
+## Dependencies
+
+- **Node.js:** JavaScript runtime for server-side code.
+- **Express:** Web framework for Node.js.
+- **MySQL2:** MySQL database client for Node.js.
+- **Axios:** HTTP client for making API requests.
+- **Dotenv:** Loads environment variables from a `.env` file.
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>

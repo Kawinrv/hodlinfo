@@ -12,3 +12,14 @@ This project fetches the top 10 cryptocurrency ticker data from the WazirX API, 
 
 - Node.js
 - MySQL
+
+## Install Dependencies
+npm install
+npm install axios
+
+```bash
+git clone https://github.com/your-repository.git
+cd your-repository
+
+start server
+node server.js

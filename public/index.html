@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>hodlinfo</title>
+</head>
+<body>
+  <header class="head">
+    <a href="#" class="logo">HODLINFO</a>
+    <div class="center">
+      <div class="dropdown">
+        <select>
+          <option value="INR">INR</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+        </select>
+      </div>
+      <div class="dropdown">
+        <select>
+          <option value="BTC">BTC</option>
+          <option value="ETH">ETH</option>
+          <option value="LTC">LTC</option>
+        </select>
+      </div>
+      <a href="https://wazirx.com/signup" class="button-buy">Buy BTC</a>
+    </div>
+    <div class="end">
+      <a href="https://t.me/HodlInfoBot"><i class='bx bxl-telegram'></i> Connect Telegram</a>
+    </div>
+  </header>
+  <div class="txt">
+    <h2>Best Place To Trade</h2>
+  </div>
+  <section class="btc-center">
+    <div class="container">
+      <div class="percentage">
+        <div>0.1 %</div>
+        <span>5 Mins</span>
+      </div>
+      <div class="percentage">
+        <div>0.96 %</div>
+        <span>1 Hour</span>
+      </div>
+      <div class="percentage price">
+        <p id="btc-price">Loading...</p>
+      </div>
+      <div class="percentage">
+        <div>2.73 %</div>
+        <span>1 Day</span>
+      </div>
+      <div class="percentage">
+        <div>7.51 %</div>
+        <span>7 Days</span>
+      </div>
+    </div>
+  </section>
+  <div class="average">Average BTC/INR Price</div>
+  <section class="table">
+    <table id="tickers-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Last</th>
+          <th>Buy</th>
+          <th>Sell</th>
+          <th>Volume</th>
+          <th>Base Unit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows will be populated by JavaScript -->
+      </tbody>
+    </table>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

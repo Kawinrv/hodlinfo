@@ -20,6 +20,6 @@ npm install axios
 ```bash
 git clone https://github.com/your-repository.git
 cd your-repository
+npm servercon.js
 
-start server
-node server.js
+
